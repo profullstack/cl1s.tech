@@ -1,0 +1,16 @@
+{
+  "name": "@cl1s/api",
+  "version": "0.1.0",
+  "description": "AgentAd ad-serving reference service (Hono).",
+  "license": "MIT",
+  "type": "module",
+  "main": "./src/index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "hono": "^4.6.0",
+    "@hono/node-server": "^1.13.0"
+  }
+}

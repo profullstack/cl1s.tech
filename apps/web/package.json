@@ -1,0 +1,16 @@
+{
+  "name": "@cl1s/web",
+  "version": "0.1.0",
+  "description": "Landing site for cl1s.tech.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./src/index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "hono": "^4.6.0",
+    "@hono/node-server": "^1.13.0"
+  }
+}

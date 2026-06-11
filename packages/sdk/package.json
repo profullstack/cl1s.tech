@@ -1,0 +1,18 @@
+{
+  "name": "@cl1s/sdk",
+  "version": "0.1.0",
+  "description": "AgentAd SDK: fetch, render, and track ads from CLI tools and AI agents.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./types": "./src/types.js"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test"
+  }
+}

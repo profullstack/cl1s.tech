@@ -1,0 +1,16 @@
+{
+  "name": "@cl1s/cli",
+  "version": "0.1.0",
+  "description": "cl1s — the AgentAd command surface for CLI users and agents.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "cl1s": "./bin/cl1s.js"
+  },
+  "files": [
+    "bin"
+  ],
+  "dependencies": {
+    "@cl1s/sdk": "workspace:*"
+  }
+}

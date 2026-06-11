@@ -1,0 +1,23 @@
+{
+  "name": "@cl1s/schemas",
+  "version": "0.1.0",
+  "description": "AgentAd JSON schemas for ads, placements, requests, responses, impressions, clicks, and campaigns.",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    "./ad": "./schemas/agentad-ad.schema.json",
+    "./placement": "./schemas/agentad-placement.schema.json",
+    "./ad-request": "./schemas/agentad-ad-request.schema.json",
+    "./ad-response": "./schemas/agentad-ad-response.schema.json",
+    "./impression": "./schemas/agentad-impression.schema.json",
+    "./click": "./schemas/agentad-click.schema.json",
+    "./campaign": "./schemas/agentad-campaign.schema.json"
+  },
+  "files": [
+    "schemas",
+    "fixtures"
+  ],
+  "scripts": {
+    "build": "node -e \"console.log('schemas: no build step')\""
+  }
+}

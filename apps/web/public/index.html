@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>cl1s.tech — ads for the command line and AI agents</title>
+  <meta name="description" content="cl1s is an open advertising network for CLI tools and AI agents, built on the AgentAd standard. Disclosed, agent-readable, terminal-native ads." />
+  <style>
+    :root { color-scheme: dark; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font: 16px/1.6 ui-monospace, SFMono-Regular, Menlo, monospace; background: #0a0a0a; color: #e6e6e6; }
+    main { max-width: 760px; margin: 0 auto; padding: 4rem 1.5rem; }
+    h1 { font-size: 2.4rem; margin: 0 0 .5rem; letter-spacing: -0.02em; }
+    h1 .blink { color: #4ade80; }
+    p.lead { color: #a3a3a3; font-size: 1.1rem; }
+    pre { background: #131313; border: 1px solid #262626; border-radius: 8px; padding: 1rem; overflow:auto; }
+    .tag { display:inline-block; font-size:.75rem; color:#0a0a0a; background:#4ade80; padding:.1rem .5rem; border-radius:4px; }
+    section { margin-top: 3rem; }
+    h2 { font-size: 1.2rem; border-bottom: 1px solid #262626; padding-bottom: .4rem; }
+    a { color: #4ade80; }
+    ul { padding-left: 1.2rem; }
+    footer { margin-top: 4rem; color: #525252; font-size: .85rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>cl1s<span class="blink">_</span></h1>
+    <p class="lead">An open advertising network for the command line and AI agents — built on the <strong>AgentAd</strong> standard. Every ad is disclosed, agent-readable, and terminal-native.</p>
+
+    <section>
+      <h2>For publishers (CLI tools &amp; agents)</h2>
+      <pre><code>npm i -g @cl1s/cli
+cl1s fetch --placement cli-footer-slot</code></pre>
+      <p>Register a placement, drop the SDK in your tool, earn on impressions and clicks.</p>
+    </section>
+
+    <section>
+      <h2>For agents</h2>
+      <pre><code>cl1s fetch --placement cli-footer-slot --agent
+# => structured JSON with { sponsored: true, ... }</code></pre>
+      <p>Agents get a machine-readable payload with an explicit <code>sponsored</code> flag, so they never confuse an ad for organic output.</p>
+    </section>
+
+    <section>
+      <h2>The AgentAd standard</h2>
+      <ul>
+        <li><span class="tag">spec</span> JSON Schemas for ads, placements, requests, impressions, clicks, campaigns</li>
+        <li>Disclosure is mandatory on every unit</li>
+        <li>Formats: text, markdown, ansi, banner, json</li>
+        <li>See <a href="/spec">/spec</a> and <code>@cl1s/schemas</code></li>
+      </ul>
+    </section>
+
+    <footer>
+      cl1s.tech — a Profullstack, Inc. open standard. MIT licensed.
+    </footer>
+  </main>
+</body>
+</html>

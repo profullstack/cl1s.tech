@@ -1,0 +1,25 @@
+{
+  "name": "cl1s",
+  "version": "0.1.0",
+  "private": true,
+  "description": "cl1s.tech — an open advertising network for CLI tools and AI agents, built on the AgentAd standard.",
+  "license": "MIT",
+  "type": "module",
+  "packageManager": "pnpm@9.12.0",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:api": "pnpm --filter @cl1s/api dev",
+    "dev:web": "pnpm --filter @cl1s/web dev",
+    "validate:fixtures": "node scripts/validate-fixtures.js",
+    "test": "pnpm -r --if-present test",
+    "check": "pnpm run validate:fixtures && pnpm run test"
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "yaml": "^2.6.0"
+  }
+}
