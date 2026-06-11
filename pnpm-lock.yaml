@@ -38,7 +38,7 @@ importers:
 
   packages/cli:
     dependencies:
-      '@cl1s/sdk':
+      '@profullstack/cl1s-sdk':
         specifier: workspace:*
         version: link:../sdk
 

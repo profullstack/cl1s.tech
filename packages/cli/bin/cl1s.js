@@ -9,7 +9,7 @@
  */
 
 import { readFile } from "node:fs/promises";
-import { Cl1sClient, renderAd, toAgentView } from "@cl1s/sdk";
+import { Cl1sClient, renderAd, toAgentView } from "@profullstack/cl1s-sdk";
 
 const args = process.argv.slice(2);
 const cmd = args[0];
@@ -60,12 +60,12 @@ async function main() {
     case "validate": {
       const file = args[1];
       if (!file) fail("usage: cl1s validate <doc.json>");
-      const { validateDoc } = await import("@cl1s/sdk/validate").catch(() => ({}));
-      if (!validateDoc) fail("validation requires @cl1s/schemas + a validator; see docs/agentad.md");
+      const { validateDoc } = await import("@profullstack/cl1s-sdk/validate").catch(() => ({}));
+      if (!validateDoc) fail("validation requires @profullstack/cl1s-schemas + a validator; see docs/agentad.md");
       return;
     }
     case "spec":
-      console.log("AgentAd spec: https://cl1s.tech/spec — schemas: @cl1s/schemas");
+      console.log("AgentAd spec: https://cl1s.tech/spec — schemas: @profullstack/cl1s-schemas");
       return;
     default:
       console.log(`cl1s — CLI advertising network for terminals and agents

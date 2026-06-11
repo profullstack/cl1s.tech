@@ -1,5 +1,5 @@
 /**
- * @cl1s/api — AgentAd ad-serving reference service (Hono).
+ * @profullstack/cl1s-api — AgentAd ad-serving reference service (Hono).
  *
  * In-memory reference implementation of the AgentAd network endpoints:
  *   POST /v1/ads          fill a placement (agentad.ad_request -> agentad.ad_response)

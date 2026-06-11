@@ -1,5 +1,5 @@
 /**
- * @cl1s/web — landing site for cl1s.tech (Hono).
+ * @profullstack/cl1s-web — landing site for cl1s.tech (Hono).
  * Serves a single marketing page describing the AgentAd standard and the network.
  */
 

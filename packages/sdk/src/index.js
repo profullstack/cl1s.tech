@@ -1,5 +1,5 @@
 /**
- * @cl1s/sdk — AgentAd client for CLI tools and AI agents.
+ * @profullstack/cl1s-sdk — AgentAd client for CLI tools and AI agents.
  *
  * Fetches ads for a registered placement, renders them for humans or agents,
  * and reports impression/click events back to the network.

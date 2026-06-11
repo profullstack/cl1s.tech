@@ -1,5 +1,5 @@
 {
-  "name": "@cl1s/cli",
+  "name": "@profullstack/cl1s-cli",
   "version": "0.1.0",
   "description": "cl1s — the AgentAd command surface for CLI users and agents.",
   "license": "MIT",
@@ -11,6 +11,6 @@
     "bin"
   ],
   "dependencies": {
-    "@cl1s/sdk": "workspace:*"
+    "@profullstack/cl1s-sdk": "workspace:*"
   }
 }

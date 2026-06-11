@@ -11,8 +11,8 @@
     "apps/*"
   ],
   "scripts": {
-    "dev:api": "pnpm --filter @cl1s/api dev",
-    "dev:web": "pnpm --filter @cl1s/web dev",
+    "dev:api": "pnpm --filter @profullstack/cl1s-api dev",
+    "dev:web": "pnpm --filter @profullstack/cl1s-web dev",
     "validate:fixtures": "node scripts/validate-fixtures.js",
     "test": "pnpm -r --if-present test",
     "check": "pnpm run validate:fixtures && pnpm run test"

@@ -1,5 +1,5 @@
 {
-  "name": "@cl1s/sdk",
+  "name": "@profullstack/cl1s-sdk",
   "version": "0.1.0",
   "description": "AgentAd SDK: fetch, render, and track ads from CLI tools and AI agents.",
   "license": "MIT",

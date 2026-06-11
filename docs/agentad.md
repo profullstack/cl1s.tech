@@ -31,7 +31,7 @@ network built on AgentAd; external tools may consume the AgentAd contracts direc
 | `agentad.click` | `agentad-click.schema.json` | Click / conversion |
 | `agentad.campaign` | `agentad-campaign.schema.json` | Advertiser campaign |
 
-Schemas are published from `@cl1s/schemas` and identified under
+Schemas are published from `@profullstack/cl1s-schemas` and identified under
 `https://schemas.cl1s.tech/`.
 
 ## Serving flow

@@ -14,12 +14,12 @@ hosted network built on it.
 
 ```txt
 packages/
-  schemas   @cl1s/schemas — AgentAd JSON schemas + fixtures
-  sdk       @cl1s/sdk     — fetch, render, and track ads from any CLI/agent
-  cli       @cl1s/cli     — the `cl1s` command surface
+  schemas   @profullstack/cl1s-schemas — AgentAd JSON schemas + fixtures
+  sdk       @profullstack/cl1s-sdk     — fetch, render, and track ads from any CLI/agent
+  cli       @profullstack/cl1s-cli     — the `cl1s` command surface
 apps/
-  api       @cl1s/api     — Hono ad-serving reference service
-  web       @cl1s/web     — landing site
+  api       @profullstack/cl1s-api     — Hono ad-serving reference service
+  web       @profullstack/cl1s-web     — landing site
 docs/
   agentad.md              — the AgentAd standard
 scripts/
@@ -47,7 +47,7 @@ CL1S_ENDPOINT=http://localhost:8787 node packages/cli/bin/cl1s.js \
 ## Embedding the SDK
 
 ```js
-import { Cl1sClient, renderAd, toAgentView } from "@cl1s/sdk";
+import { Cl1sClient, renderAd, toAgentView } from "@profullstack/cl1s-sdk";
 
 const cl1s = new Cl1sClient({ placementId: "cli-footer-slot" });
 const { ads } = await cl1s.requestAds({ context: { keywords: ["deploy"] } });

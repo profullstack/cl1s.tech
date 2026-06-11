@@ -1,5 +1,5 @@
 {
-  "name": "@cl1s/schemas",
+  "name": "@profullstack/cl1s-schemas",
   "version": "0.1.0",
   "description": "AgentAd JSON schemas for ads, placements, requests, responses, impressions, clicks, and campaigns.",
   "license": "MIT",

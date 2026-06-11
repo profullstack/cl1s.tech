@@ -1,5 +1,5 @@
 {
-  "name": "@cl1s/api",
+  "name": "@profullstack/cl1s-api",
   "version": "0.1.0",
   "description": "AgentAd ad-serving reference service (Hono).",
   "license": "MIT",
