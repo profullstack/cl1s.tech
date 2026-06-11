@@ -60,9 +60,11 @@ for (const { ad, impression_token } of ads) {
 
 ## The AgentAd standard
 
-See [`docs/agentad.md`](docs/agentad.md). Schemas live in
-[`packages/schemas`](packages/schemas) and are identified under
-`https://schemas.cl1s.tech/`.
+AgentAd is defined canonically in
+[LogicSRC](https://github.com/profullstack/logicsrc) (`@logicsrc/schemas`);
+cl1s.tech re-exports it via [`packages/schemas`](packages/schemas)
+(`@profullstack/cl1s-schemas`). Schema `$id`s resolve under
+`https://schemas.logicsrc.com/`. See [`docs/agentad.md`](docs/agentad.md).
 
 ## License
 

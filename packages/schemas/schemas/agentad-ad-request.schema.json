@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://schemas.cl1s.tech/agentad-ad-request.schema.json",
+  "$id": "https://schemas.logicsrc.com/agentad-ad-request.schema.json",
   "title": "AgentAd Ad Request",
   "description": "A request from a CLI/agent for an ad to fill a placement, with optional runtime context for relevance.",
   "type": "object",

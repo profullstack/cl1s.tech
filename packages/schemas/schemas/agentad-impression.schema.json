@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://schemas.cl1s.tech/agentad-impression.schema.json",
+  "$id": "https://schemas.logicsrc.com/agentad-impression.schema.json",
   "title": "AgentAd Impression",
   "description": "A confirmed display of an ad. Recorded only after the ad was actually rendered to the consumer.",
   "type": "object",

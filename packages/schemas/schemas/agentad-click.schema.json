@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://schemas.cl1s.tech/agentad-click.schema.json",
+  "$id": "https://schemas.logicsrc.com/agentad-click.schema.json",
   "title": "AgentAd Click",
   "description": "A consumer action on an ad (a click, install, or conversion). For agents, 'action' records the structured intent taken.",
   "type": "object",

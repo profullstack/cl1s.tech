@@ -1,7 +1,7 @@
 {
   "name": "@profullstack/cl1s-schemas",
   "version": "0.1.0",
-  "description": "AgentAd JSON schemas for ads, placements, requests, responses, impressions, clicks, and campaigns.",
+  "description": "AgentAd JSON schemas (ads, placements, requests, responses, impressions, clicks, campaigns). Canonical source: @logicsrc/schemas; mirrored here until that package is published.",
   "license": "MIT",
   "type": "module",
   "exports": {

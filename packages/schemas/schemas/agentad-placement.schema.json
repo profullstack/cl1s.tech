@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://schemas.cl1s.tech/agentad-placement.schema.json",
+  "$id": "https://schemas.logicsrc.com/agentad-placement.schema.json",
   "title": "AgentAd Placement",
   "description": "A slot registered by a publisher (a CLI tool or agent) where AgentAd units may be rendered.",
   "type": "object",

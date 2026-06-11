@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://schemas.cl1s.tech/agentad-ad.schema.json",
+  "$id": "https://schemas.logicsrc.com/agentad-ad.schema.json",
   "title": "AgentAd Ad",
   "description": "A single advertising unit served to CLI tools and AI agents. Ads MUST be disclosed and SHOULD carry a machine-readable payload so agents can reason about them.",
   "type": "object",

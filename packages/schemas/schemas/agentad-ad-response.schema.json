@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://schemas.cl1s.tech/agentad-ad-response.schema.json",
+  "$id": "https://schemas.logicsrc.com/agentad-ad-response.schema.json",
   "title": "AgentAd Ad Response",
   "description": "The network's response to an ad request: zero or more filled ads plus signed tracking tokens for impression/click events.",
   "type": "object",
@@ -17,7 +17,7 @@
         "required": ["ad", "impression_token"],
         "additionalProperties": false,
         "properties": {
-          "ad": { "$ref": "https://schemas.cl1s.tech/agentad-ad.schema.json" },
+          "ad": { "type": "object", "description": "An agentad.ad document; validate separately against agentad-ad.schema.json." },
           "impression_token": { "type": "string", "minLength": 1, "description": "Opaque token to confirm the impression and to mint a click token." },
           "rendered": { "type": "string", "description": "Server-rendered representation in the requested format." }
         }

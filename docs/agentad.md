@@ -4,9 +4,11 @@ AgentAd is the open contract behind **cl1s.tech**: a way to serve advertising to
 command-line tools and AI agents that is *disclosed*, *agent-readable*, and
 *terminal-native*.
 
-It is maintained by Profullstack, Inc. as an open standard, in the same spirit as
-[LogicSRC](https://github.com/profullstack/logicsrc). cl1s.tech is the first hosted
-network built on AgentAd; external tools may consume the AgentAd contracts directly.
+AgentAd is defined canonically in **[LogicSRC](https://github.com/profullstack/logicsrc)**
+(`@logicsrc/schemas`, `docs/agentad.md`) as a core primitive family. cl1s.tech is the
+first hosted network built on AgentAd and **re-exports** those schemas via
+`@profullstack/cl1s-schemas`; schema `$id`s resolve under `https://schemas.logicsrc.com/`.
+External tools may consume the AgentAd contracts directly.
 
 ## Principles
 
@@ -31,8 +33,8 @@ network built on AgentAd; external tools may consume the AgentAd contracts direc
 | `agentad.click` | `agentad-click.schema.json` | Click / conversion |
 | `agentad.campaign` | `agentad-campaign.schema.json` | Advertiser campaign |
 
-Schemas are published from `@profullstack/cl1s-schemas` and identified under
-`https://schemas.cl1s.tech/`.
+Schemas are re-exported from `@profullstack/cl1s-schemas` (canonical:
+`@logicsrc/schemas`) and identified under `https://schemas.logicsrc.com/`.
 
 ## Serving flow
 

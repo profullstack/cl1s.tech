@@ -13,6 +13,7 @@
   "scripts": {
     "dev:api": "pnpm --filter @profullstack/cl1s-api dev",
     "dev:web": "pnpm --filter @profullstack/cl1s-web dev",
+    "sync:schemas": "node scripts/sync-schemas.js",
     "validate:fixtures": "node scripts/validate-fixtures.js",
     "test": "pnpm -r --if-present test",
     "check": "pnpm run validate:fixtures && pnpm run test"
